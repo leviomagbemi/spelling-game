@@ -1,0 +1,8 @@
+[
+  {"re": "/^[MUCH]{3,4}$/",
+   "words": "['MUCH', 'HUM', 'CHUM']"},
+
+   {"re": "/^[MUCH]{3,4}$/",
+   "words": "['MUCH', 'HUM', 'CHUM']",
+   "letters": "MUCH"}
+]
