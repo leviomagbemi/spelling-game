@@ -4,29 +4,42 @@
   <meta charset="UTF-8">
   <meta http-equiv="X-UA-Compatible" content="IE=edge">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <link rel="stylesheet" href="bootstrap.min.css">
+  <link rel="stylesheet" href="style.css">
   <title>Document</title>
 </head>
 <body>
-    <div class="container pt-5">
-      <div class="row">
-        <div class="col-md-6 mx-auto">
-          <input type="text" class="form-control text-center">
-        </div>
-        <div class="col-md-6 mx-auto">
-         <span id="score">0</span>
-        </div>
-        <div class="container">
-          <div class="row">
-            <div class="col-sm-12 mx-auto text-center my-5 py-5" id="anscon"> 
-                       
-            </div>
+  <H1>WORD LEGEND CLONE</H1>
+  <p>Find first three most common words from the letters below</p>
 
-            <div class="col-sm-6 mx-auto text-center my-5 " id="btncon"> 
+  <div class="game-container">
+    <span id="score">0</span>
 
-            </div>
+    <div class="word-containers">
+
+    </div>
+
+    <div class="output-container">
+      <input type="text" id="output" maxlength="4" readonly>
+    </div>
+
+    <div class="clap">
+      <img src="3VQL.gif" alt="">
+    </div>
+
+    <div class="congrats">
+      <img src="Congratulations-Gifs-Transparent-PNG.gif" alt="">
+    </div>
+
+    <div class="letters-container">
+
+    </div>
+
+    <div class="continue">
+      <button id="continue">Continue</button>
+    </div>
+
+  </div>
   
-  <script src="bootstrap.min.js"></script>
   <script src="app.js"></script>
 </body>
 </html>
