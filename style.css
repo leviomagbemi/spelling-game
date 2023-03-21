@@ -1,0 +1,141 @@
+*{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+img{
+  width: 100%;
+}
+
+h1{
+  text-align: center;
+  margin-top: 2rem;
+  color: rgb(86, 0, 167) ;
+}
+p{
+  text-align: center;
+  font-size: 18px;
+  color: rgb(86, 0, 167) ;
+}
+
+.game-container{
+width: 50vh;
+padding: 2rem;
+background-color: rgb(86, 0, 167);
+margin:2rem auto;
+border-radius: 16px;
+}
+
+#score{
+ position: relative;
+ top: 0;
+ left: 230px;
+ padding: 0.5rem;
+ border-radius: 8px;
+ background-color: #02b405;
+ color: #fff;
+}
+
+.word-containers{
+  width: 100%;
+  padding: 2rem;
+  margin: 1rem 0;
+  border-radius: 16px;
+  background-color: #fff;
+}
+
+.output-container{
+ display: flex;
+ justify-content: center;
+}
+
+#output{
+  padding: 0.5rem;
+  text-align: center;
+  border-radius: 16px;
+  border:0;
+  outline: none;
+  display: none;
+  animation: myan2 1s 1 forwards;
+}
+
+.letters-container{
+ display: flex;
+ justify-content: center;
+ padding: 1rem;
+ margin: 1rem 0;
+ background-color: blueviolet;
+ color: rgb(86, 0, 167);
+ border-radius: 16px;
+}
+
+.letter{
+  padding: 0.5rem;
+  background-color: #fff;
+  margin: 0.5rem;
+  border-radius: 4px;
+  cursor: pointer;
+}
+
+.word{
+  display: block;
+  width: 150px;
+  padding: 0.5rem 1rem;
+  background-color: rgb(86, 0, 167);
+  color: #fff;
+  margin: 0 auto 0.5rem auto;
+  text-align: center;
+  border-radius: 8px;
+  animation: myan 1s 1 forwards;
+}
+
+.continue{
+  width: 100%;
+}
+
+.continue button{
+  padding: 1rem 2rem;
+  border: none;
+  border-radius: 16px;
+  color: #fff;
+  background-color: #02b405;
+  font-size: 18px;
+  display: none;
+  margin: auto;
+}
+
+.clap{
+  width: 100px;
+  display: none;
+  margin: auto;
+}
+
+.congrats{
+  display: none;
+}
+
+.wrong{
+  background-color: #bf1000;
+  color: #fff;
+}
+
+.correct{
+  background-color: #02b405;
+  color: #fff;
+}
+
+.exist{
+  background-color: #ffae00;
+  color: #fff;
+}
+
+@keyframes myan {
+  0%{opacity: 0;}
+  50%{transform: scale(1.1);}
+}
+
+
+@keyframes myan2 {
+  0%{opacity: 0;}
+}
