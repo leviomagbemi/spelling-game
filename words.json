@@ -1,0 +1,11 @@
+[
+  { "re": "^[NOSY]{3,4}$", "words": "NOSY,SON,SOY", "letters": "NYSO" },
+
+  { "re": "^[MUCH]{3,4}$", "words": "MUCH,HUM,CHUM", "letters": "MCHU" },
+
+  { "re": "^[SPAN]{3,4}$", "words": "SPAN,PAN,NAP", "letters": "NSAP" },
+
+  { "re": "^[HOWL]{3,4}$", "words": "HOWL,LOW,OWL", "letters": "LHWO" },
+
+  { "re": "^[WIDE]{3,4}$", "words": "WIDE,DIE,DEW", "letters": "IEWD" }
+]
