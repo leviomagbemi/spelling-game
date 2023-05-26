@@ -1,43 +1,44 @@
-*{
+* {
   margin: 0;
   padding: 0;
   box-sizing: border-box;
 }
 
-img{
+img {
   width: 100%;
 }
 
-h1{
+h1 {
   text-align: center;
   margin-top: 2rem;
-  color: rgb(86, 0, 167) ;
+  color: rgb(86, 0, 167);
 }
-p{
+p {
   text-align: center;
   font-size: 18px;
-  color: rgb(86, 0, 167) ;
+  color: rgb(86, 0, 167);
 }
 
-.game-container{
-width: 50vh;
-padding: 2rem;
-background-color: rgb(86, 0, 167);
-margin:2rem auto;
-border-radius: 16px;
+.game-container {
+  max-width: 300px;
+  height: auto;
+  padding: 2rem;
+  background-color: rgb(86, 0, 167);
+  margin: 2rem auto;
+  border-radius: 16px;
 }
 
-#score{
- position: relative;
- top: 0;
- left: 230px;
- padding: 0.5rem;
- border-radius: 8px;
- background-color: #02b405;
- color: #fff;
+#score {
+  position: relative;
+  top: 0;
+  left: 200px;
+  padding: 0.5rem;
+  border-radius: 8px;
+  background-color: #02b405;
+  color: #fff;
 }
 
-.word-containers{
+.words-container {
   width: 100%;
   padding: 2rem;
   margin: 1rem 0;
@@ -45,32 +46,32 @@ border-radius: 16px;
   background-color: #fff;
 }
 
-.output-container{
- display: flex;
- justify-content: center;
+.output-container {
+  display: flex;
+  justify-content: center;
 }
 
-#output{
+#output {
   padding: 0.5rem;
   text-align: center;
   border-radius: 16px;
-  border:0;
+  border: 0;
   outline: none;
   display: none;
   animation: myan2 1s 1 forwards;
 }
 
-.letters-container{
- display: flex;
- justify-content: center;
- padding: 1rem;
- margin: 1rem 0;
- background-color: blueviolet;
- color: rgb(86, 0, 167);
- border-radius: 16px;
+.letters-container {
+  display: flex;
+  justify-content: center;
+  padding: 1rem;
+  margin: 1rem 0;
+  background-color: blueviolet;
+  color: rgb(86, 0, 167);
+  border-radius: 16px;
 }
 
-.letter{
+.letter {
   padding: 0.5rem;
   background-color: #fff;
   margin: 0.5rem;
@@ -78,7 +79,7 @@ border-radius: 16px;
   cursor: pointer;
 }
 
-.word{
+.word {
   display: block;
   width: 150px;
   padding: 0.5rem 1rem;
@@ -90,11 +91,11 @@ border-radius: 16px;
   animation: myan 1s 1 forwards;
 }
 
-.continue{
+.continue {
   width: 100%;
 }
 
-.continue button{
+.continue button {
   padding: 1rem 2rem;
   border: none;
   border-radius: 16px;
@@ -105,37 +106,42 @@ border-radius: 16px;
   margin: auto;
 }
 
-.clap{
+.clap {
   width: 100px;
   display: none;
   margin: auto;
 }
 
-.congrats{
+.congrats {
   display: none;
 }
 
-.wrong{
+.wrong {
   background-color: #bf1000;
   color: #fff;
 }
 
-.correct{
+.correct {
   background-color: #02b405;
   color: #fff;
 }
 
-.exist{
+.exist {
   background-color: #ffae00;
   color: #fff;
 }
 
 @keyframes myan {
-  0%{opacity: 0;}
-  50%{transform: scale(1.1);}
+  0% {
+    opacity: 0;
+  }
+  50% {
+    transform: scale(1.1);
+  }
 }
 
-
 @keyframes myan2 {
-  0%{opacity: 0;}
+  0% {
+    opacity: 0;
+  }
 }
